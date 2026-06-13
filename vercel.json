@@ -3,10 +3,11 @@
   "devCommand": "pnpm dev",
   "installCommand": "pnpm install",
   "framework": "vite",
-  "outputDirectory": "dist",
+  "outputDirectory": "dist/public",
   "env": {
     "VITE_APP_TITLE": "EvalPro",
-    "VITE_APP_ID": "evalpro-app"
+    "VITE_APP_ID": "evalpro-app",
+    "NODE_ENV": "production"
   },
   "rewrites": [
     {
